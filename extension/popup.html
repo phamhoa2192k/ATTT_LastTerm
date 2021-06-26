@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+
+  <div id="content">
+
+    <div id="beginPage">
+      <label for="nextPageBtn">Do you want to login to <span>
+          <div id="host"></div>
+        </span>?</label>
+      <button id="nextPageBtn">
+        Login
+      </button>
+    </div>
+
+    <div id="nextPage">
+
+      <input type="file" name="file" id="dbfile" class="inputfile" />
+      <label for="dbfile" id="filename"><i class="fas fa-upload"></i> Choose key file</label>
+
+      <div id="haveKey">
+        <div>You have an account: <span id="username"></span></div><br>
+        <div>Want to login?</div>
+        <button id="login">Login</button>
+      </div>
+
+      <div id="dontHaveKey">
+        <div>You don't have key or wrong key</div>
+      </div>
+
+      <div id="signDiv">Yoo will login with Nonce: <span id='nonce'></span>
+        <button id = "signBtn">Sign</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="unsupport">
+    This page is not support for this extension
+  </div>
+
+</body>
+<script src="/dist/jsrsasign-all-min.js"></script>
+<script src="/dist/built-in.js"></script>
+<script src="/script/popup.js"></script>
+
+</html>

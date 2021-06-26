@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="css/index.js">
+	</head>
+	<body>
+		<div>
+			<h1>You are login with username is: <%= username %></h1>
+			<button id = "logout">Log out</button>
+		</div>
+	</body>
+	<script>
+		document.getElementById("logout").addEventListener('click', () => {
+			fetch('/logout').then(
+				res => window.location.reload()
+			)
+		})
+	</script>
+</html>
