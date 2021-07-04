@@ -25,7 +25,7 @@ Trong bài tập lớn này, do không có blockchain nên nhóm em lưu khóa n
 
 Trong đồ án này, nhóm chúng em đã sử dụng
 
-* ngôn ngữ 'expressjs`, `html`, `css`, `javascript`
+* ngôn ngữ `expressjs`, `html`, `css`, `javascript`
 * nền tảng `Visual Studio Code`
 
 ## 4. Các script sử dụng
