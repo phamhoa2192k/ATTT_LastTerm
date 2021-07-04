@@ -1,6 +1,6 @@
-# Web and Online Services: Bài tập lớn cuối kỳ
+# Nhập môn An toàn thông tin: Bài tập lớn cuối kỳ
 
-GV hướng dẫn: TS. Đào Thành Chung
+GV hướng dẫn: TS. Trần Vĩnh Đức
 
 Nhóm SV thực hiện:
 
